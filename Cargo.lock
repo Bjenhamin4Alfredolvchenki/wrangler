@@ -121,9 +121,9 @@ checksum = "b41b7ea54a0c9d92199de89e20e58d49f02f8e699814ef3fdf266f6f748d15c7"
 
 [[package]]
 name = "base64"
-version = "0.12.1"
+version = "0.12.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "53d1ccbaf7d9ec9537465a97bf19edc1a4e158ecb49fc16178202238c569cc42"
+checksum = "e223af0dc48c96d4f8342ec01a4974f139df863896b316681efd36742f22cc67"
 
 [[package]]
 name = "billboard"
@@ -1748,7 +1748,7 @@ version = "0.10.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4be79e8610ce0c2d646aa03bff67653f76d394c4e0a5e7bc255007008fcc6ba8"
 dependencies = [
- "base64 0.12.1",
+ "base64 0.12.2",
  "bytes 0.5.4",
  "encoding_rs",
  "futures-core",
@@ -2725,7 +2725,7 @@ version = "1.9.2"
 dependencies = [
  "assert_cmd",
  "atty",
- "base64 0.12.1",
+ "base64 0.12.2",
  "billboard",
  "binary-install",
  "chrome-devtools-rs",
