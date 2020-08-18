@@ -10,6 +10,12 @@ dependencies = [
 ]
 
 [[package]]
+name = "adler"
+version = "0.2.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "ee2a4ec343196209d6594e19543ae87a39f96d5534d7174822a3ad825dd6ed7e"
+
+[[package]]
 name = "adler32"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -664,9 +670,9 @@ dependencies = [
 
 [[package]]
 name = "flate2"
-version = "1.0.14"
+version = "1.0.17"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2cfff41391129e0a856d6d822600b8d71179d46879e310417eb9c762eb178b42"
+checksum = "766d0e77a2c1502169d4a93ff3b8c15a71fd946cd0126309752104e5f3c46d94"
 dependencies = [
  "cfg-if",
  "crc32fast",
@@ -1243,11 +1249,11 @@ dependencies = [
 
 [[package]]
 name = "miniz_oxide"
-version = "0.3.6"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "aa679ff6578b1cddee93d7e82e263b94a575e0bfced07284eb0c037c1d2416a5"
+checksum = "be0f75932c1f6cfae3c04000e40114adf955636e19040f9c0a2c380702aa1c7f"
 dependencies = [
- "adler32",
+ "adler",
 ]
 
 [[package]]
