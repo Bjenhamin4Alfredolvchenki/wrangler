@@ -1036,13 +1036,13 @@ dependencies = [
 
 [[package]]
 name = "indicatif"
-version = "0.14.0"
+version = "0.16.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "49a68371cf417889c9d7f98235b7102ea7c54fc59bcbd22f3dea785be9d27e40"
+checksum = "1a27a1329c072947215f58e9bbe6540c2328b5c2e40b34a57104e5e06e7aeabb"
 dependencies = [
  "console 0.11.3",
  "lazy_static",
- "number_prefix 0.3.0",
+ "number_prefix",
  "regex",
 ]
 
@@ -1433,12 +1433,6 @@ dependencies = [
  "hermit-abi",
  "libc",
 ]
-
-[[package]]
-name = "number_prefix"
-version = "0.3.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "17b02fc0ff9a9e4b35b3342880f48e896ebf69f2967921fe8646bf5b7125956a"
 
 [[package]]
 name = "number_prefix"
@@ -2750,7 +2744,7 @@ dependencies = [
  "lazy_static",
  "log 0.4.8",
  "notify",
- "number_prefix 0.4.0",
+ "number_prefix",
  "openssl",
  "percent-encoding 2.1.0",
  "predicates",
